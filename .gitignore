@@ -1,4 +1,5 @@
 # custom files
+.git*
 
 # temp files directories
 cache/
