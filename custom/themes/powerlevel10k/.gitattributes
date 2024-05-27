@@ -3,3 +3,4 @@
 *.zsh-theme text eol=lf
 /prompt_powerlevel9k_setup text eol=lf
 /prompt_powerlevel10k_setup text eol=lf
+.github/dependencies.yml merge=ours
