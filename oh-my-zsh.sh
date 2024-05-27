@@ -10,7 +10,7 @@ omz_f() {
 # Protect against non-zsh execution of Oh My Zsh (use POSIX syntax here)
 [ -n "$ZSH_VERSION" ] || {
   omz_ptree() {
-    # Get process tree of the current process
+    # Get process tree of the current process.
     pid=$$; pids="$pid"
     while [ ${pid-0} -ne 1 ] && ppid=$(ps -e -o pid,ppid | awk "\$1 == $pid { print \$2 }"); do
       pids="$pids $pid"; pid=$ppid
