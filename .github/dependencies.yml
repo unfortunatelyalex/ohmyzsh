@@ -44,3 +44,4 @@ dependencies:
       set -e
       rm -r test
       rm install.sh tty.gif wd.1
+
